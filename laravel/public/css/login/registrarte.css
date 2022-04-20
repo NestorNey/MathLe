@@ -1,0 +1,178 @@
+*{
+    background-color: rgb(206, 225, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid transparent 1px;
+    padding: 0;
+    margin-top: -1px;
+}
+#contenedor-main{
+    background-color: rgba(25, 29, 31, 0.600);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0px;
+}
+#contenedor-main #subcont{
+    margin-top: 2%;
+    margin-right: 22%;
+    margin-left: 22%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 30px;
+    border-color: transparent;
+    margin-bottom: 2%;
+}
+#contenedor-main #subcont h1{
+    margin: 5%;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #nombre{
+    margin-top: 1%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #nombre #label-name{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #nombre #name-input{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #nombre #name-input input{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+#contenedor-main #subcont form #correo-electronico{
+    margin-top: 4%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #correo-electronico #label-email{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #correo-electronico #correo-input{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #correo-electronico #correo-input input{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+#contenedor-main #subcont form #correo-electronico #correo-input #message-error{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+}
+#contenedor-main #subcont form #correo-electronico #correo-input #message-error strong{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+    vertical-align: middle;
+    font-size: 11px;
+    margin-left: 13%;
+}
+#contenedor-main #subcont form #contraseña #message-error{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+}
+#contenedor-main #subcont form #contraseña #message-error strong{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+    vertical-align: middle;
+    font-size: 11px;
+    margin-left: 13%;
+}
+#contenedor-main #subcont form #contraseña{
+    margin-top: 4%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #contraseña #label-contraseña{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #contraseña #contraseña-input{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+#contenedor-main #subcont form #confirm-password{
+    margin-top: 4%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #confirm-password #confirmar-contraseña{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #confirm-password #password-confirm{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+
+
+
+
+#contenedor-main #subcont form #sumit-cheker{
+    background-color: transparent;
+    margin-right: 20%;
+    margin-left: 38%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    align-items: center;
+}
+#contenedor-main #subcont form #sumit-cheker #button-register{
+    background-color: transparent;
+    display: inline-block;
+    align-items: center;
+
+}
+#contenedor-main #subcont form #sumit-cheker #button-register #button-register-subcontainer{
+    background-color: rgba(17, 17, 17, .600);
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 750;
+    align-items: center;
+}
+#contenedor-main #subcont form #sumit-cheker #button-register #button-register-subcontainer:hover{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 750;
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+}

@@ -1,0 +1,157 @@
+*{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid transparent 1px;
+    padding: 0;
+    margin-top: -1px;
+}
+body{
+    padding: 0;
+}
+#contenedor-main{
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0px;
+}
+#contenedor-main #subcont{
+    margin-top: 7%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.53);
+}
+#contenedor-main #subcont h1{
+    margin: 5%;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #correo-electronico{
+    margin-top: 5%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #correo-electronico #label-email{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #correo-electronico #correo-input{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #correo-electronico #correo-input input{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+#contenedor-main #subcont form #correo-electronico #correo-input #message-error{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+}
+#contenedor-main #subcont form #correo-electronico #correo-input #message-error strong{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 60, 60);
+    vertical-align: middle;
+    font-size: 11px;
+    margin-left: 13%;
+}
+#contenedor-main #subcont form #contraseña{
+    margin-top: 5%;
+    background-color: transparent;
+}
+#contenedor-main #subcont form #contraseña #label-contraseña{
+    font-weight: 800;
+    background-color: transparent;
+    margin-left: 13%;
+    color: rgb(63, 63, 63);
+}
+#contenedor-main #subcont form #contraseña #contraseña-input{
+    background-color: transparent;
+}
+#contenedor-main #subcont form #contraseña #contraseña-input #password{
+    margin-top: 1%;
+    background-color: white;
+    margin-left: 13%;
+    border-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    width: 72%;
+    height: 30px;
+}
+#contenedor-main #subcont form #pie-login{
+    background-color: transparent;
+    margin-top: 5%;
+}
+#contenedor-main #subcont form #pie-login #forgeter{
+    background-color: transparent;
+    text-align: center;
+}
+#contenedor-main #subcont form #pie-login #forgeter a{
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(127, 127, 127);
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker{
+    background-color: transparent;
+    margin-right: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #button-login{
+    background-color: transparent;
+    display: inline-block;
+
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #button-login #button-login-subcontainer{
+    background-color: rgba(17, 17, 17, .600);
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 750;
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #button-login #button-login-subcontainer:hover{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 750;
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #recordar-cheker{
+    background-color: transparent;
+    display: inline-block;
+    color: rgb(127, 127, 127);
+    vertical-align: middle;
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #recordar-cheker input{
+    background-color: rgba(17, 17, 17, .600);
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#contenedor-main #subcont form #pie-login #sumit-cheker #recordar-cheker #text-recordarme{
+    background-color: transparent;
+    vertical-align: middle;
+}
